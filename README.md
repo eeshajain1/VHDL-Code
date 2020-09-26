@@ -3,7 +3,7 @@ This is a collection of all the code I wrote in my EECS 31L class at University 
 
 Project 1 (XOR Gate): I wrote a VHDL behavioral file and testbench that outputs the result when two bits of information are inputted into an XOR gate. (Eg- if 0 XOR 1 is inputted, the result will be 1, and if 1 XOR 1 is inputted, the result will be 0)
 
-Project 2 (Low Fuel Light Detector): I designed a small digital circuit for low fuel detection. The fuel system sensor provides a value from “0000” (empty) to “1111” (full). The controller turns on the low fuel light (FuelWarningLight = ‘1’) when it detects low fuel in the system (“0000” through “0100”). 
+Project 1a (Low Fuel Light Detector): I designed a small digital circuit for low fuel detection. The fuel system sensor provides a value from “0000” (empty) to “1111” (full). The controller turns on the low fuel light (FuelWarningLight = ‘1’) when it detects low fuel in the system (“0000” through “0100”). 
 
 Project 3 (Parking Permit):I designed a controller for parking permit dispensing machines, which are automated pay machines that provide daily permits. I used an FSM and implemented the controller with state register and combinational circuit.
 
