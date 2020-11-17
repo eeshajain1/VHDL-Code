@@ -23,9 +23,7 @@ architecture Behavioral of Locator_beh  is
       ARRAY (0 TO 7) OF std_logic_vector(15 DOWNTO 0); 
    SIGNAL regArray : regArray_type :=  (X"0000", X"000B", X"0008", X"0003", X"0005", X"0000", X"0000", X"0000");     
 
--- do not modify any code above this line
--- additional variables/signals can be declared if needed below
--- add your code starting here
+
 	TYPE Statetype IS (Start_State, Computation_State, Second_Comp_State, End_State);
 	SIGNAL Currentstate, Nextstate: Statetype;
 	
